@@ -13,7 +13,7 @@ GAME_COLOR = "#5eead4"
 
 window = tk.Tk()
 window.title("Sleep Coin 3000")
-window.geometry("420x460")
+window.geometry("420x500")
 window.configure(bg=BG)
 window.resizable(False, False)
 
@@ -165,6 +165,6 @@ footer = tk.Label(
     bg=BG,
     fg=MUTED
 )
-footer.pack(side="bottom", pady=10)
+footer.pack(pady=(0, 10))
 
 window.mainloop()
